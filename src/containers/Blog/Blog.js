@@ -32,7 +32,6 @@ class Blog extends Component {
 
     postSelectedHandler = (id) => {
         this.setState({selectedPostID: id})
-        console.log(this.state.selectedPostID)
     }
     render () {
         let posts = <p style={{textAlign: 'center'}}>Something went wrong!</p>
